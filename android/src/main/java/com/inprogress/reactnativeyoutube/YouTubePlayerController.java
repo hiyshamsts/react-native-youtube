@@ -42,7 +42,7 @@ public class YouTubePlayerController implements
     private int mControls = 1;
     private boolean mShowFullscreenButton = true;
     private boolean mResumePlay = true;
-    private int FULLSCREEN_FLAG = 8;
+    private int FULLSCREEN_FLAG = 2;
 
     public YouTubePlayerController(YouTubeView youTubeView) {
         mYouTubeView = youTubeView;
