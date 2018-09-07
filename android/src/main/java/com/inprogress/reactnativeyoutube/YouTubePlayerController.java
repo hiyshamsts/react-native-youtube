@@ -42,6 +42,7 @@ public class YouTubePlayerController implements
     private int mControls = 1;
     private boolean mShowFullscreenButton = true;
     private boolean mResumePlay = true;
+    private int FULLSCREEN_FLAG_CONTROL_ORIENTATION = 1;
 
     public YouTubePlayerController(YouTubeView youTubeView) {
         mYouTubeView = youTubeView;
@@ -239,6 +240,7 @@ public class YouTubePlayerController implements
 
     private void updateFullscreen() {
         mYouTubePlayer.setFullscreen(mFullscreen);
+        mYouTubePlayer.setFullscreenControlFlags(FULLSCREEN_FLAG_CONTROL_ORIENTATION)
     }
 
     private void updateShowFullscreenButton() {

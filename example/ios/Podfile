@@ -6,6 +6,8 @@ target 'RCTYouTubeExample' do
   # use_frameworks!
 
   # Pods for RCTYouTubeExample
+  pod 'react-native-youtube', :path => '../node_modules/react-native-youtube'
+
 end
 
 pod 'XCDYouTubeKit', '~> 2.5'
