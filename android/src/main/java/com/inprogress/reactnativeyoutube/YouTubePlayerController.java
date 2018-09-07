@@ -240,7 +240,7 @@ public class YouTubePlayerController implements
 
     private void updateFullscreen() {
         mYouTubePlayer.setFullscreen(mFullscreen);
-        mYouTubePlayer.setFullscreenControlFlags(FULLSCREEN_FLAG_CONTROL_ORIENTATION)
+        mYouTubePlayer.setFullscreenControlFlags(FULLSCREEN_FLAG_CONTROL_ORIENTATION);
     }
 
     private void updateShowFullscreenButton() {
